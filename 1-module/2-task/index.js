@@ -15,10 +15,9 @@ function isValid(name) {
     return false;
   }
 
-  if (name !== null && name.length > 3 && name.indexOf(' ') === -1)
+  if (name.length > 3 && name.indexOf(' ') === -1)
   {
     return true;
-
   }
   else
   {
