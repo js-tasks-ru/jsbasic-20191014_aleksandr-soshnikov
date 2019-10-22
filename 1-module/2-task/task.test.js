@@ -14,5 +14,4 @@ describe('1-module-2-task', () => {
   it('если вызываем не передавая ничего, то должен вернуть false', () => {
     expect(isValid()).toEqual(false);
   });
-
 });
